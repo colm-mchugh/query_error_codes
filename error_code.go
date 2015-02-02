@@ -20,8 +20,8 @@ package errors
 const (
 	// A readonly error is returned when
 	SERVICE_READONLY_CODE    = 1000
-	SERVICE_READONLY_MESSAGE = "The server or request is read-only and "
-				+ "cannot accept this write statement."
+	SERVICE_READONLY_MESSAGE = "The server or request is read-only and " +
+		"cannot accept this write statement."
 )
 
 const (
@@ -76,36 +76,36 @@ const (
 
 // admin level errors - errors that are created in the clustering and accounting packages
 const (
-	// admin level errors - errors that are created in the clustering 
-	// and accounting packages; these errors can be returned by the 
+	// admin level errors - errors that are created in the clustering
+	// and accounting packages; these errors can be returned by the
 	// clustering API
 	// Comments
 	ADMIN_CLUSTERING_CONNECTION_ERROR_CODE    = 2000
 	ADMIN_CLUSTERING_CONNECTION_ERROR_MESSAGE = "Error connecting to %S"
 
 	// Put documentation here
-	ADMIN_INVALID_URL_CODE	  = 2010
+	ADMIN_INVALID_URL_CODE    = 2010
 	ADMIN_INVALID_URL_MESSAGE = "Invalid % url: %s"
 
 	// Great documentation
 	ADMIN_JSON_DECODING_ERROR_CODE    = 2020
 	ADMIN_JSON_DECODING_ERROR_MESSAGE = "Error in JSON decoding: %s"
-	
+
 	ADMIN_JSON_ENCODING_ERROR_CODE    = 2030
 	ADMIN_JSON_ENCODING_ERROR_MESSAGE = "Error in JSON encoding: %s"
-	
+
 	ADMIN_RETRIEVE_CLUSTER_ERROR_CODE    = 2040
 	ADMIN_RETRIEVE_CLUSTER_ERROR_MESSAGE = "Error retrieving cluster: %s"
-	
+
 	ADMIN_ADD_CLUSTER_ERROR_CODE    = 2050
 	ADMIN_ADD_CLUSTER_ERROR_MESSAGE = "Error adding cluster: %s"
-	
+
 	ADMIN_REMOVE_CLUSTER_ERROR_CODE    = 2060
 	ADMIN_REMOVE_CLUSTER_ERROR_MESSAGE = "Error removing cluster: %s"
-	
+
 	ADMIN_GET_NODE_ERROR_CODE    = 2070
 	ADMIN_GET_NODE_ERROR_MESSAGE = "Error retrieving node: %s"
-	
+
 	ADMIN_NO_SUCH_NODE_CODE    = 2080
 	ADMIN_NO_SUCH_NODE_MESSAGE = "No such node %s"
 
@@ -114,8 +114,7 @@ const (
 
 	ADMIN_REMOVE_NODE_ERROR_CODE    = 2100
 	ADMIN_REMOVE_NODE_ERROR_MESSAGE = "Error removing node: %s"
-	
-	ADMIN_MAKE_METRIC_ERROR_CODE	= 2110
-	ADMIN_MAKE_METRIC_ERROR_MESSAGE = "Error creating metric: %s "
 
+	ADMIN_MAKE_METRIC_ERROR_CODE    = 2110
+	ADMIN_MAKE_METRIC_ERROR_MESSAGE = "Error creating metric: %s "
 )
