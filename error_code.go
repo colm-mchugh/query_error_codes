@@ -69,10 +69,13 @@ const (
 	SERVICE_MULTIPLE_VALUES_MESSAGE = "Multiple values for %s."
 )
 
+const (
 	// Returned if the value for a parameter is of incorrect type
 	SERVICE_TYPE_MISMATCH_CODE    = 1070
 	SERVICE_TYPE_MISMATCH_MESSAGE = "%s has to be of type %s"
+)
 
+const (
 	// Returned if results contain an invalid json object
 	SERVICE_INVALID_JSON_CODE    = 1100
 	SERVICE_INVALID_JSON_MESSAGE = "Invalid JSON in results"
