@@ -16,13 +16,6 @@ messages.
 */
 package errors
 
-import (
-	"fmt"
-	"path"
-	"runtime"
-	"strings"
-)
-
 // service level errors - errors that are created in the service package
 const (
 	// A readonly error is returned when
